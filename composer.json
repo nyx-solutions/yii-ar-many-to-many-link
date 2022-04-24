@@ -1,0 +1,52 @@
+{
+  "name": "nyx-solutions/yii-ar-many-to-many-link",
+  "description": "Provides support for many-to-many relations saving in Yii2 ActiveRecord",
+  "keywords": [
+    "yii2",
+    "active",
+    "record",
+    "relaton",
+    "link",
+    "many",
+    "many-to-many",
+    "many to many"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "version": "2.0.0",
+  "support": {
+    "issues": "https://github.com/nyx-solutions/yii-ar-many-to-many-link/issues",
+    "source": "https://github.com/nyx-solutions/yii-ar-many-to-many-link"
+  },
+  "authors": [
+    {
+      "name": "Paul Klimov",
+      "email": "klimov.paul@gmail.com"
+    },
+    {
+      "name": "Jonatas Sas",
+      "email": "atendimento@jsas.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0 <8.1",
+
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "nyx\\db\\": "src"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
