@@ -1,6 +1,11 @@
 Yii 2 ActiveRecord Many-to-Many saving extension Change Log
 ===========================================================
 
+5.0.0, Jun 3, 2022
+-----------------------
+
+- PHP 8.1 version and fixes
+
 2.0.0, April 24, 2022
 -----------------------
 

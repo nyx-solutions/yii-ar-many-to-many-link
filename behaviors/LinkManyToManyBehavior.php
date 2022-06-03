@@ -1,6 +1,6 @@
 <?php
 
-    namespace nyx\db;
+    namespace nyx\behaviors;
 
     use yii\base\Behavior;
     use yii\base\Event;
@@ -199,6 +199,8 @@
 
         /**
          * @inheritdoc
+         *
+         * @noinspection PhpMissingReturnTypeInspection
          */
         public function canGetProperty($name, $checkVars = true)
         {
@@ -210,6 +212,8 @@
 
         /**
          * @inheritdoc
+         *
+         * @noinspection PhpMissingReturnTypeInspection
          */
         public function canSetProperty($name, $checkVars = true)
         {
@@ -223,6 +227,8 @@
 
         /**
          * @inheritdoc
+         *
+         * @noinspection PhpMissingReturnTypeInspection
          */
         public function events()
         {
@@ -242,6 +248,8 @@
          * @throws StaleObjectException
          *
          * @noinspection PhpUnusedParameterInspection
+         * @noinspection PhpMissingParamTypeInspection
+         * @noinspection PhpConditionAlreadyCheckedInspection
          */
         public function afterSave($event)
         {
@@ -295,6 +303,7 @@
          * @param Event $event event instance.
          *
          * @noinspection PhpUnusedParameterInspection
+         * @noinspection PhpMissingParamTypeInspection
          */
         public function afterDelete($event)
         {
@@ -308,7 +317,7 @@
          *
          * @return array additional column values to be saved into the junction table.
          */
-        protected function composeLinkExtraColumns($model = null)
+        protected function composeLinkExtraColumns(?ActiveRecordInterface $model = null): array
         {
             if (empty($this->extraColumns)) {
                 return [];

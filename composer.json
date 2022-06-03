@@ -1,5 +1,5 @@
 {
-  "name": "nyx-solutions/yii-ar-many-to-many-link",
+  "name": "nyx-solutions/yii2-nyx-ar-many-to-many-link",
   "description": "Provides support for many-to-many relations saving in Yii2 ActiveRecord",
   "keywords": [
     "yii2",
@@ -13,10 +13,10 @@
   ],
   "type": "yii2-extension",
   "license": "BSD-3-Clause",
-  "version": "2.0.0",
+  "version": "5.0.0",
   "support": {
-    "issues": "https://github.com/nyx-solutions/yii-ar-many-to-many-link/issues",
-    "source": "https://github.com/nyx-solutions/yii-ar-many-to-many-link"
+    "issues": "https://github.com/nyx-solutions/yii2-nyx-ar-many-to-many-link/issues",
+    "source": "https://github.com/nyx-solutions/yii2-nyx-ar-many-to-many-link"
   },
   "authors": [
     {
@@ -24,29 +24,42 @@
       "email": "klimov.paul@gmail.com"
     },
     {
+      "name": "NYX Solutions",
+      "email": "nyx@jsas.com.br"
+    },
+    {
       "name": "Jonatas Sas",
       "email": "atendimento@jsas.com.br"
+    },
+    {
+      "name": "Breno Herculano",
+      "email": "brenosouherculano@gmail.com"
     }
   ],
   "require": {
-    "php": ">=8.0.0 <8.1",
+    "php": ">=8.1.0 <8.2",
 
-    "yiisoft/yii2": "~2.0.0"
+    "nyx-solutions/yii2-nyx": "~5.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "nyx\\behaviors\\": "behaviors"
+    }
+  },
+  "config": {
+    "process-timeout": 1800,
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
   },
   "repositories": [
     {
       "type": "composer",
       "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/nyx-solutions/yii2-nyx-ar-many-to-many-link"
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "nyx\\db\\": "src"
-    }
-  },
-  "config": {
-    "allow-plugins": {
-      "yiisoft/yii2-composer": true
-    }
-  }
+  ]
 }

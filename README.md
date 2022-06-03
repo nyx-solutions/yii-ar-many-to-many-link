@@ -5,13 +5,13 @@ removes excluded references and provide support for web form composition.
 
 For license information check the [LICENSE](LICENSE.md)-file.
 
-[![Latest Stable Version](https://poser.pugx.org/nyx-solutions/yii-ar-many-to-many-link/v/stable)](https://packagist.org/packages/nyx-solutions/yii-ar-many-to-many-link)
-[![Total Downloads](https://poser.pugx.org/nyx-solutions/yii-ar-many-to-many-link/downloads)](https://packagist.org/packages/nyx-solutions/yii-ar-many-to-many-link)
-[![Latest Unstable Version](https://poser.pugx.org/nyx-solutions/yii-ar-many-to-many-link/v/unstable)](https://packagist.org/packages/nyx-solutions/yii-ar-many-to-many-link)
-[![License](https://poser.pugx.org/nyx-solutions/yii-ar-many-to-many-link/license)](https://packagist.org/packages/nyx-solutions/yii-ar-many-to-many-link)
-[![Monthly Downloads](https://poser.pugx.org/nyx-solutions/yii-ar-many-to-many-link/d/monthly)](https://packagist.org/packages/nyx-solutions/yii-ar-many-to-many-link)
-[![Daily Downloads](https://poser.pugx.org/nyx-solutions/yii-ar-many-to-many-link/d/daily)](https://packagist.org/packages/nyx-solutions/yii-ar-many-to-many-link)
-[![composer.lock](https://poser.pugx.org/nyx-solutions/yii-ar-many-to-many-link/composerlock)](https://packagist.org/packages/nyx-solutions/yii-ar-many-to-many-link)
+[![Latest Stable Version](https://poser.pugx.org/nyx-solutions/yii2-nyx-ar-many-to-many-link/v/stable)](https://packagist.org/packages/nyx-solutions/yii2-nyx-ar-many-to-many-link)
+[![Total Downloads](https://poser.pugx.org/nyx-solutions/yii2-nyx-ar-many-to-many-link/downloads)](https://packagist.org/packages/nyx-solutions/yii2-nyx-ar-many-to-many-link)
+[![Latest Unstable Version](https://poser.pugx.org/nyx-solutions/yii2-nyx-ar-many-to-many-link/v/unstable)](https://packagist.org/packages/nyx-solutions/yii2-nyx-ar-many-to-many-link)
+[![License](https://poser.pugx.org/nyx-solutions/yii2-nyx-ar-many-to-many-link/license)](https://packagist.org/packages/nyx-solutions/yii2-nyx-ar-many-to-many-link)
+[![Monthly Downloads](https://poser.pugx.org/nyx-solutions/yii2-nyx-ar-many-to-many-link/d/monthly)](https://packagist.org/packages/nyx-solutions/yii2-nyx-ar-many-to-many-link)
+[![Daily Downloads](https://poser.pugx.org/nyx-solutions/yii2-nyx-ar-many-to-many-link/d/daily)](https://packagist.org/packages/nyx-solutions/yii2-nyx-ar-many-to-many-link)
+[![composer.lock](https://poser.pugx.org/nyx-solutions/yii2-nyx-ar-many-to-many-link/composerlock)](https://packagist.org/packages/nyx-solutions/yii2-nyx-ar-many-to-many-link)
 
 Installation
 ------------
@@ -21,13 +21,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist nyx-solutions/yii-ar-many-to-many-link
+php composer.phar require --prefer-dist nyx-solutions/yii2-nyx-ar-many-to-many-link
 ```
 
 or add
 
 ```
-"nyx-solutions/yii-ar-many-to-many-link": "*"
+"nyx-solutions/yii2-nyx-ar-many-to-many-link": "*"
 ```
 
 to the require section of your composer.json.
